@@ -37,6 +37,7 @@ public class SearchInventory {
                System.out.println(p.getProductNumber() + " " + p.getProductName() + " " + p.getPrice());
            }
        }
+
        public static ArrayList<Products> getInventory(){
            ArrayList<Products> inventory = new ArrayList<>();
            inventory.add(new Products(4567,"10' 2x4(grade B)", 9.99f));

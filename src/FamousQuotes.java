@@ -47,8 +47,6 @@ public class FamousQuotes {
                 options = false;
                 System.out.println("Done");
             }
-
         }
-
     }
 }
